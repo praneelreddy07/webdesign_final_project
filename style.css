@@ -74,3 +74,26 @@ a{
     
 
 }
+.phase3{
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+    
+}
+.slider{
+    display: flex;
+    flex: 1;
+    margin: auto;
+    background-color: black;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+}
+button{
+    border: none;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
