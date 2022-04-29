@@ -97,3 +97,27 @@ button{
     color: white;
     text-align: center;
 }
+.textclass{
+    
+    position: relative;
+    top: 30px;
+    right: 80px;
+}
+.img1{
+    position: relative;
+    text-align: center;
+    color: beige;
+    font-family: 'poppins', sans-serif;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.imagescontainer{
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    margin: auto;
+}
+.img1 :hover{
+    transform: translateY(-5px);
+}
