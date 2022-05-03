@@ -121,3 +121,6 @@ button{
 .img1 :hover{
     transform: translateY(-5px);
 }
+.formclass{
+    padding: 20px;
+}
