@@ -124,3 +124,10 @@ button{
 .formclass{
     padding: 20px;
 }
+.phase6{
+    margin: auto;
+    text-align: center;
+    background-color: wheat;
+    color: black;
+    padding: 20px;
+}
