@@ -1,15 +1,16 @@
 *{
     margin: 0;
     padding: 0;
-
+    
 }
 
 .phase1{
     padding: 20px;
-    background-color: black;
-    color: white;
+    background-color:yellowgreen;
+    color: black;
     font-size: 20px;
     font-style: italic;
+    display: block;
 }
 .vertline{
     height: 5px;
@@ -28,7 +29,7 @@ nav ul li{
 
 }
 a{
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 20px;
     cursor: pointer;
@@ -57,21 +58,32 @@ a{
     display: inline-block;
 }
 .phase22, .phase23{
-    text-align: center;
-    background-color: black;
+    overflow: hidden;
+    background-color: grey;
     color : white;
-    padding: 20px;
+    padding: 20px 20px 20px 0;
     width: 500px;
     margin: auto
-
 }
 .phase22 ul li{
     display: inline-block;
+    
+}
+.phase22 ul li a{
+    margin: auto;
+    color: white;
+    
+}
+.phase22 ul li  a:hover{
+    color: black;
+    background-color: wheat;
 }
 
 .phase23{
-    background-color: grey;
-    
+    background-color: black;
+    padding: 20px 20px 20px 0;
+    margin: auto;
+    text-align: center;
 
 }
 .phase3{
@@ -127,7 +139,140 @@ button{
 .phase6{
     margin: auto;
     text-align: center;
-    background-color: wheat;
+    background-color: greenyellow;
     color: black;
     padding: 20px;
+    
+
 }
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    grid-column-gap: 20px;
+    padding: 20px;
+}
+.fa {
+
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .img{
+      position: relative;
+      text-align: center;
+  }
+  @media screen and (max-width: 1000px){
+
+    .imagescontainer{
+        display: list-item;
+    }
+    .textinimg{
+        font-size: 13px;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+    }
+    nav ul li{
+        display: block;
+    }
+    nav ul li a{
+        display: none;
+    } 
+    .phase1{
+        background-color: green;
+    }
+    .heading {
+        overflow: hidden;
+        background-color: green;
+        position: relative;
+      }
+    header{
+        padding: 20px;
+    }  
+      
+      /* Hide the links inside the navigation menu (except for logo/home) */
+      .heading #menu {
+        display: none;
+        background-color: green;
+        color: black;
+        margin: auto 50px ;
+      }
+      
+      /* Style navigation menu links */
+      .heading a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      /* Style the hamburger menu */
+      .heading a.icon {
+        
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      /* Add a grey background color on mouse-over */
+     
+      
+      /* Style the active link (or home/logo) */
+      .active {
+        background-color: black;
+        color: white;
+      }
+      .img img{
+          position: relative;
+      }
+     
+    .phase22{
+    overflow: hidden;
+    background-color: black;
+    color : white;
+    padding: 20px 20px 20px 0;
+    width: 500px;
+    margin: auto
+    }
+    .phase23{
+    overflow: hidden;
+    background-color: grey;
+    color : white;
+    padding: 20px;
+    width: 480px;
+    margin: auto
+    }
+    .menupng{
+        display: inline-block;
+    }
+    .division1{
+        display: none;
+    }
+    .divison3{
+        display: none;
+    }
+  }

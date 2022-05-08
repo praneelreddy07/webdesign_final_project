@@ -1,8 +1,8 @@
 function ach(){
-    document.getElementById('con').innerHTML = "University Gold Medalist in CS"
+    document.getElementById('con').innerHTML = `<strong style="color:yellow;">University Gold Medalist</strong> in Computer Science`
 }
 function hob(){
-    document.getElementById('con').innerHTML = "Developing New Websites and Coding"
+    document.getElementById('con').innerHTML = `Developing <strong style="color:yellow;">New Websites and Coding</strong>`
 }
 function vol(){
     document.getElementById('con').innerHTML = "Did Voluntary work in blood donation camps"
@@ -32,3 +32,14 @@ function slidecontent(){
 }
 }
 }
+
+
+
+function myFunction() {
+    var x = document.getElementById("menu");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
