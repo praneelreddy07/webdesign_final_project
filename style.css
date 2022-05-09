@@ -35,7 +35,7 @@ a{
     cursor: pointer;
 }
 .textinimg{
-    top: 25%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%,-50%);
     color: white;
@@ -232,7 +232,7 @@ footer{
       /* Style the hamburger menu */
       .heading a.icon {
         
-        display: block;
+        display: inline;
         position: absolute;
         right: 0;
         top: 0;
